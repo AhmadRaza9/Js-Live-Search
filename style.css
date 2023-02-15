@@ -1,0 +1,29 @@
+#searchBox{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#list{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#list li{
+    padding: 10px 5px;
+    border: 1px solid #eee;
+}
+
+#list li:nth-child(odd){
+    background-color: #f2f2f2;
+}
+
+#list li:hover{
+    background-color: #fffed6;
+}
+
+#list li.hide{
+    display: none;
+}
